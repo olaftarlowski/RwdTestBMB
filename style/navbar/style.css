@@ -32,12 +32,23 @@ body .mainNavbar .rightSideContent {
   position: fixed;
   z-index: 1;
   right: 0;
-  top: 0;
+  top: 51px;
   background-color: antiquewhite;
   background-color: rgba(0, 0, 0, 0.3);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+body .mainNavbar .rightSideContent a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
 }
 
 body .mainNavbar .toggleButton {

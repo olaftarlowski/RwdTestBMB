@@ -17,13 +17,23 @@ body {
             position: fixed;
             z-index: 1;
             right: 0;
-            top: 0;
+            top: 51px;
             background-color: antiquewhite;
             background-color: rgba(0, 0, 0, 0.3);
             overflow-x: hidden;
             transition: 0.5s;
-            
+
+            a {
+                padding: 8px;
+                text-decoration: none;
+                font-size: 36px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+                text-align: center;
+            }
         }
+
         .toggleButton {
             display: block;
             display: flex;
@@ -31,11 +41,11 @@ body {
             justify-content: center;
             height: 42px;
             width: 42px;
-            
+
             .fa-bars {
                 font-size: 2em;
-              }
-          }
+            }
+        }
     }
 }
 
