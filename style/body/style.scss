@@ -1,5 +1,5 @@
 $colors:(
-    testColor: #005DFF,
+    testColor: #fff,
     testColor2: #442421,
 );
 
@@ -7,10 +7,11 @@ $colors:(
     @return map-get($colors, $colorName)
 }
 
-$margin: -8px;
+$margin: 0px;
 
 body, html {
-    margin: 0 $margin;
+    margin: $margin 0;
     background-color: color(testColor);
+    font-family: Roboto, Arial, sans-serif;
 }
 

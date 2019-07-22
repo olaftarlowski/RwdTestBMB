@@ -7,6 +7,7 @@ body .mainNavbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 8px;
 }
 
 body .mainNavbar .leftSideContent {
@@ -20,6 +21,7 @@ body .mainNavbar .leftSideContent {
 }
 
 body .mainNavbar .rightSideContent {
+  margin: 7% 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,28 +29,33 @@ body .mainNavbar .rightSideContent {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
-  width: 50%;
+  height: 70%;
+  width: 0%;
   position: fixed;
   z-index: 1;
   right: 0;
-  top: 51px;
+  top: 67px;
   background-color: antiquewhite;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 body .mainNavbar .rightSideContent a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
-  color: #818181;
+  font-size: 1.5em;
+  color: #000;
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-align: center;
+  text-transform: uppercase;
+  margin: 5%;
 }
 
 body .mainNavbar .toggleButton {
@@ -68,5 +75,9 @@ body .mainNavbar .toggleButton {
 
 body .mainNavbar .toggleButton .fa-bars {
   font-size: 2em;
+}
+
+body .mainNavbar .showMenu {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
