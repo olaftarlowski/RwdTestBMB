@@ -1,18 +1,20 @@
-$colors:(
-    testColor: #005DFF,
-    testColor2: #442421,
-);
-
-@function color ($colorName) {
-    @return map-get($colors, $colorName)
-}
-
-body, html {
-    background-color: color(testColor);
-    
+body {
     .mainNavbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
-      }
-};
+
+        .leftSideContent {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .rightSideContent {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+}
+
+;

@@ -1,0 +1,16 @@
+$colors:(
+    testColor: #005DFF,
+    testColor2: #442421,
+);
+
+@function color ($colorName) {
+    @return map-get($colors, $colorName)
+}
+
+$margin: -8px;
+
+body, html {
+    margin: 0 $margin;
+    background-color: color(testColor);
+}
+
