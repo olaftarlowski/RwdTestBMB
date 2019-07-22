@@ -10,4 +10,9 @@ $colors:(
 body, html {
     background-color: color(testColor);
     
+    .mainNavbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
 };
