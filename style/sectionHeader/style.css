@@ -11,4 +11,14 @@
   max-height: calc(100vh - 67px);
   margin-bottom: -4px;
 }
+
+.shadow {
+  height: 1px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 67px;
+  width: 100%;
+  z-index: 10;
+}
 /*# sourceMappingURL=style.css.map */

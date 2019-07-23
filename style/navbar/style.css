@@ -9,8 +9,8 @@ body .mainNavbar {
           align-items: center;
   width: 100%;
   padding: 8px 0;
-  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -51,6 +51,9 @@ body .mainNavbar .rightSideContent {
           padding-inline-start: 0;
   -webkit-margin-before: 0;
           margin-block-start: 0;
+  background-color: white;
+  -webkit-box-shadow: 0px -1px 2px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px -1px 2px rgba(50, 50, 50, 0.3);
 }
 
 body .mainNavbar .rightSideContent li {
