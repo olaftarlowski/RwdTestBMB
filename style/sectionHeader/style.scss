@@ -1,0 +1,13 @@
+.mainBanner {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    
+
+    img {
+        max-width: initial;
+        max-height: calc(100vh - 67px);
+        margin-bottom: -4px;
+    }
+}

@@ -1,0 +1,14 @@
+.mainBanner {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mainBanner img {
+  max-width: initial;
+  max-height: calc(100vh - 67px);
+  margin-bottom: -4px;
+}
+/*# sourceMappingURL=style.css.map */
