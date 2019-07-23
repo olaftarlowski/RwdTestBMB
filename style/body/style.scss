@@ -1,17 +1,17 @@
 $colors:(
-    testColor: #fff,
-    testColor2: #442421,
+    testColor: rgb(255, 255, 255),
+    testColor2: #ffedeb,
 );
 
 @function color ($colorName) {
     @return map-get($colors, $colorName)
 }
 
-$margin: 0px;
+$margin: -8px;
 
 body, html {
-    margin: $margin 0;
+    margin: 0 $margin;
     background-color: color(testColor);
-    font-family: Roboto, Arial, sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
