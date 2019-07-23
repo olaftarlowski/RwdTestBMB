@@ -1,5 +1,5 @@
 $colors:(
-    testColor: rgb(255, 255, 255),
+    backgroundColor: rgb(255, 255, 255),
     testColor2: rgb(0, 0, 0),
 );
 
@@ -7,11 +7,11 @@ $colors:(
     @return map-get($colors, $colorName)
 }
 
-$margin: 0;
+$marginZero: 0;
 
 body {
-    margin: $margin;
-    background-color: color(testColor);
+    margin: $marginZero;
+    background-color: color(backgroundColor);
     font-family: 'Muli', sans-serif;
 }
 

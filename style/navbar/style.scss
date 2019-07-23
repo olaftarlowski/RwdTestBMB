@@ -5,9 +5,9 @@ body {
         align-items: center;
         width: 100%;
         padding: 8px 0;
-        -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3);
-        -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3);
-        box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3);
+        -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
 
         .leftSideContent {
@@ -24,27 +24,30 @@ body {
             z-index: 1;
             right: 0;
             top: 67px;
-            background-color: antiquewhite;
             background-color: rgba(0, 0, 0, 0.0);
             overflow-x: hidden;
             transition: 0.5s;
             justify-content: center;
             border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-            
+            padding-inline-start: 0;
+            margin-block-start: 0;
 
-            a {
-                padding: 8px;
-                text-decoration: none;
-                font-size: 1.5em;
-                color: #000;
-                display: block;
-                transition: 0.3s;
-                text-align: center;
-                text-transform: uppercase; 
-                // margin: 1%;
+            li {
+                list-style-type: none;
 
-                
+                a {
+                    padding: 8px;
+                    text-decoration: none;
+                    font-size: 1.5em;
+                    color: #000;
+                    display: block;
+                    transition: 0.3s;
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin: 3vh 0;
+                }
             }
+
         }
 
         .toggleButton {
@@ -59,14 +62,12 @@ body {
                 font-size: 2em;
             }
         }
+
         .showMenu {
             width: 100%;
         }
     }
-    hr {
-        margin: 0;
-        
-    }
+
 }
 
 ;

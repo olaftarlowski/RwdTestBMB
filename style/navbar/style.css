@@ -9,8 +9,8 @@ body .mainNavbar {
           align-items: center;
   width: 100%;
   padding: 8px 0;
-  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -39,7 +39,6 @@ body .mainNavbar .rightSideContent {
   z-index: 1;
   right: 0;
   top: 67px;
-  background-color: antiquewhite;
   background-color: rgba(0, 0, 0, 0);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
@@ -48,9 +47,17 @@ body .mainNavbar .rightSideContent {
       -ms-flex-pack: center;
           justify-content: center;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
 }
 
-body .mainNavbar .rightSideContent a {
+body .mainNavbar .rightSideContent li {
+  list-style-type: none;
+}
+
+body .mainNavbar .rightSideContent li a {
   padding: 8px;
   text-decoration: none;
   font-size: 1.5em;
@@ -60,6 +67,7 @@ body .mainNavbar .rightSideContent a {
   transition: 0.3s;
   text-align: center;
   text-transform: uppercase;
+  margin: 3vh 0;
 }
 
 body .mainNavbar .toggleButton {
@@ -83,9 +91,5 @@ body .mainNavbar .toggleButton .fa-bars {
 
 body .mainNavbar .showMenu {
   width: 100%;
-}
-
-body hr {
-  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
