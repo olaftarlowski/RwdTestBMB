@@ -9,6 +9,12 @@ $colors:(
 
 $marginZero: 0;
 
+*{
+    padding: 0;
+    margin: $marginZero;
+    box-sizing: border-box;
+}
+
 body {
     margin: $marginZero;
     background-color: color(backgroundColor);
