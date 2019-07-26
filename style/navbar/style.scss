@@ -1,7 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     .mainNavbar {
-        // position: relative;
-        // top: 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -11,10 +15,13 @@ body {
         -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
         box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
         box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
 
         .leftSideContent {
             display: flex;
             flex-direction: row;
+            z-index: 3;
+
         }
 
         .rightSideContent {
@@ -77,3 +84,13 @@ body {
 }
 
 ;
+
+.test {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.fixedResponsiveNav {
+    position: fixed;
+}

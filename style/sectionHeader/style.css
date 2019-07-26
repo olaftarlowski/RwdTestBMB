@@ -7,11 +7,12 @@
   position: relative;
   text-align: center;
   color: white;
+  z-index: -1;
 }
 
 .mainBanner img {
   max-width: initial;
-  max-height: calc(100vh - 67px);
+  height: 100vh;
   margin-bottom: -4px;
 }
 
