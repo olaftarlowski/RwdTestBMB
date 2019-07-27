@@ -2,6 +2,7 @@
 
 $tablet: 768px;
 $desktop: 1200px;
+$highResolutionDesktop: 1500px;
 
 @mixin tablet {
     @media (min-width: #{$tablet}) {
@@ -11,6 +12,12 @@ $desktop: 1200px;
 
 @mixin desktop {
     @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin highResolutionDesktop {
+    @media (min-width: #{$highResolutionDesktop}) {
         @content;
     }
 }
@@ -29,6 +36,10 @@ $desktop: 1200px;
         max-width: initial;
         height: 100vh;
         margin-bottom: -4px;
+
+        @include highResolutionDesktop() {
+            width: 100vw;
+        }
     }
 
     .bannerContainer {
@@ -45,6 +56,41 @@ $desktop: 1200px;
         flex-direction: column;
         align-items: flex-start;
         text-align: left;
+
+        h1 {
+            font-size: 36px;
+            // font-family: "MaisonNeue";
+            font-weight: 600;
+            line-height: 1;
+            margin: 2vh 0;
+
+        }
+
+        p {
+            font-size: 18px;
+            // font-family: "MaisonNeue";
+            color: rgb(255, 255, 255);
+            font-style: italic;
+            line-height: 1.7;
+            margin: 2vh 0;
+        }
+
+        button {
+            background: transparent;
+            line-height: 2;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            border-radius: 45px;
+            text-transform: uppercase;
+            text-shadow: none;
+            white-space: nowrap;
+            padding: 12px 22px;
+            cursor: pointer;
+            z-index: 100;
+            font-size: 14px;
+            margin: 2vh 0;
+
+        }
     }
 }
 

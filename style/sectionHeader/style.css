@@ -16,6 +16,12 @@
   margin-bottom: -4px;
 }
 
+@media (min-width: 1500px) {
+  .mainBanner img {
+    width: 100vw;
+  }
+}
+
 .mainBanner .bannerContainer {
   top: 0;
   width: 100%;
@@ -25,6 +31,52 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  padding: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+}
+
+.mainBanner .bannerContainer h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 2vh 0;
+}
+
+.mainBanner .bannerContainer p {
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+  line-height: 1.7;
+  margin: 2vh 0;
+}
+
+.mainBanner .bannerContainer button {
+  background: transparent;
+  line-height: 2;
+  color: white;
+  font-weight: bold;
+  border-radius: 45px;
+  text-transform: uppercase;
+  text-shadow: none;
+  white-space: nowrap;
+  padding: 12px 22px;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 14px;
+  margin: 2vh 0;
 }
 
 .test {
