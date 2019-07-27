@@ -66,6 +66,10 @@ $highResolutionDesktop: 1500px;
         align-items: flex-start;
         text-align: left;
 
+        @include desktop() {
+
+        }
+
 
         h1 {
             font-size: 36px;
@@ -73,6 +77,11 @@ $highResolutionDesktop: 1500px;
             font-weight: 600;
             line-height: 1;
             margin: 2vh 0;
+
+            @include desktop() {
+                width: 300px;
+                margin-left: 100px;
+            }
 
         }
 
@@ -83,6 +92,10 @@ $highResolutionDesktop: 1500px;
             font-style: italic;
             line-height: 1.7;
             margin: 2vh 0;
+            @include desktop() {
+                width: 300px;
+                margin-left: 100px;
+            }
         }
 
         button {
@@ -99,6 +112,9 @@ $highResolutionDesktop: 1500px;
             z-index: 100;
             font-size: 14px;
             margin: 2vh 0;
+            @include desktop() {
+                margin-left: 100px;
+            }
 
         }
     }
