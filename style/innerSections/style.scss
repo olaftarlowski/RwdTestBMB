@@ -1,0 +1,60 @@
+/// device breakpoints
+
+$tablet: 768px;
+$desktop: 1200px;
+
+@mixin tablet {
+    @media (min-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+
+.firstSection {
+    display: flex;
+    flex-direction: row;
+
+    .firstSectionContent {
+        height: 50vh;
+        flex-basis: 50%;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .firstSectionContent1 {
+        background: red;
+        justify-content: center;
+        align-items: center;
+        
+        .firstSectionContent1Elements {
+            background: yellow;
+            margin: auto;
+            max-height: 50%;
+            max-width: 50%;
+            font-size: 3vw;
+        }
+
+    }
+
+    .firstSectionContent2 {
+        background: blue;
+        justify-content: flex-start;
+        align-items: center;
+        
+        .firstSectionContent2Elements {
+            background: yellow;
+            margin: auto auto auto 0;
+            max-height: 50%;
+            max-width: 70%;
+            font-size: 2vw;
+        }
+
+    }
+}
+
