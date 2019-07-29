@@ -20,7 +20,6 @@
 }
 
 .firstSection .firstSectionContent1 {
-  background: red;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -30,7 +29,6 @@
 }
 
 .firstSection .firstSectionContent1 .firstSectionContent1Elements {
-  background: yellow;
   margin: auto;
   max-height: 50%;
   max-width: 50%;
@@ -38,7 +36,6 @@
 }
 
 .firstSection .firstSectionContent2 {
-  background: blue;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -48,7 +45,6 @@
 }
 
 .firstSection .firstSectionContent2 .firstSectionContent2Elements {
-  background: yellow;
   margin: auto auto auto 0;
   max-height: 50%;
   max-width: 70%;
