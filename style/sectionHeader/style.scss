@@ -35,7 +35,7 @@ $highResolutionDesktop: 1500px;
 
     img {
         max-width: initial;
-        height: 100vh;
+        height: calc(100vh - 67px);
         margin-bottom: -4px;
 
         @include highResolutionDesktop() {
@@ -72,28 +72,28 @@ $highResolutionDesktop: 1500px;
 
 
         h1 {
-            font-size: 36px;
-            // font-family: "MaisonNeue";
+            max-width: 630px;
+            font-size: 60px;
             font-weight: 600;
             line-height: 1;
             margin: 2vh 0;
 
             @include desktop() {
-                width: 300px;
+                max-width: 630px;
                 margin-left: 100px;
             }
 
         }
 
         p {
-            font-size: 18px;
-            // font-family: "MaisonNeue";
+            padding: 60px 0 50px 0;
+            line-height: 1.5;
+            font-size: 24px;
+            font-family: "maison_italic";
             color: rgb(255, 255, 255);
             font-style: italic;
-            line-height: 1.7;
             margin: 2vh 0;
             @include desktop() {
-                width: 300px;
                 margin-left: 100px;
             }
         }

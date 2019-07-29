@@ -12,7 +12,7 @@
 
 .mainBanner img {
   max-width: initial;
-  height: 100vh;
+  height: calc(100vh - 67px);
   margin-bottom: -4px;
 }
 
@@ -57,7 +57,8 @@
 }
 
 .mainBanner .bannerContainer h1 {
-  font-size: 36px;
+  max-width: 630px;
+  font-size: 60px;
   font-weight: 600;
   line-height: 1;
   margin: 2vh 0;
@@ -65,22 +66,23 @@
 
 @media (min-width: 1200px) {
   .mainBanner .bannerContainer h1 {
-    width: 300px;
+    max-width: 630px;
     margin-left: 100px;
   }
 }
 
 .mainBanner .bannerContainer p {
-  font-size: 18px;
+  padding: 60px 0 50px 0;
+  line-height: 1.5;
+  font-size: 24px;
+  font-family: "maison_italic";
   color: white;
   font-style: italic;
-  line-height: 1.7;
   margin: 2vh 0;
 }
 
 @media (min-width: 1200px) {
   .mainBanner .bannerContainer p {
-    width: 300px;
     margin-left: 100px;
   }
 }
