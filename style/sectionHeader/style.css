@@ -60,9 +60,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -77,8 +76,16 @@
 @media (min-width: 768px) {
   .mainBanner .bannerContainer .bannerElements {
     margin: 0 5vw;
-    max-width: 70%;
-    height: 60%;
+    max-width: 70vw;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1200px) {
+  .mainBanner .bannerContainer .bannerElements {
+    margin: 0 10vw;
+    max-width: 40vw;
+    height: 45vh;
   }
 }
 
@@ -90,6 +97,13 @@
 @media (min-width: 768px) {
   .mainBanner .bannerContainer .bannerElements h1 {
     font-size: 6vw;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1200px) {
+  .mainBanner .bannerContainer .bannerElements h1 {
+    font-size: 3.5vw;
     line-height: 1.2;
   }
 }
@@ -111,6 +125,14 @@
   }
 }
 
+@media (min-width: 768px) and (min-width: 1200px) {
+  .mainBanner .bannerContainer .bannerElements p {
+    font-size: 1.5vw;
+    line-height: 1.4;
+    padding: 30px 0 20px 0;
+  }
+}
+
 .mainBanner .bannerContainer .bannerElements button {
   background: transparent;
   line-height: 2;
@@ -129,9 +151,17 @@
 
 @media (min-width: 768px) {
   .mainBanner .bannerContainer .bannerElements button {
-    line-height: 2;
     font-size: 2vw;
+    line-height: 2;
     padding: 12px 22px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1200px) {
+  .mainBanner .bannerContainer .bannerElements button {
+    font-size: 1vw;
+    line-height: 1.5;
+    padding: 20px 36px;
   }
 }
 
