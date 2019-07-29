@@ -106,8 +106,8 @@
   white-space: nowrap;
   padding: 12px 22px;
   cursor: pointer;
-  z-index: 100;
-  font-size: 14px;
+  z-index: 10;
+  font-size: 4vw;
   margin: 2vh 0;
 }
 

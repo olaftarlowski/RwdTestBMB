@@ -98,10 +98,9 @@ $highResolutionDesktop: 1500px;
                 font-family: "maison_italic";
                 color: rgb(255, 255, 255);
                 font-style: italic;
-                // margin: 2vh 0;
 
                 @include desktop() {
-                    // background-color: red;
+                    // background-color: blue;
                 }
             }
     
@@ -116,11 +115,11 @@ $highResolutionDesktop: 1500px;
                 white-space: nowrap;
                 padding: 12px 22px;
                 cursor: pointer;
-                z-index: 100;
-                font-size: 14px;
+                z-index: 10;
+                font-size: 4vw;
                 margin: 2vh 0;
                 @include desktop() {
-                    // background-color: red;
+                    // background-color: yellow;
                 }
     
             }
