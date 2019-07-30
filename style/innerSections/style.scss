@@ -53,17 +53,15 @@ $desktop: 1200px;
 
         .firstSectionContent1Elements {
             margin: auto;
-            font-size: 8vw;
+            font-size: 2em;
 
             @include tablet {
                 margin: auto;
                 max-width: 50%;
-                font-size: 2.5vw;
+                font-size: 1.8em;
 
                 @include desktop {
-                    // max-height: 50%;
-                    // max-width: 50%;
-                    font-size: 2.4vw;
+                    font-size: 2em;
                 }
             }
         }
@@ -80,7 +78,7 @@ $desktop: 1200px;
         }
 
         .firstSectionContent2Elements {
-            font-size: 5vw;
+            font-size: 1em;
             line-height: 2;
             font-style: italic;
             color: rgb(160, 160, 160);
@@ -89,12 +87,12 @@ $desktop: 1200px;
                 line-height: none;
                 margin: auto auto auto 0;
                 max-width: 70%;
-                font-size: 1.4vw;
+                font-size: 0.95em;
 
                 @include desktop {
-                    // max-height: 50%;
+                    line-height: 1.5;
                     max-width: 60%;
-                    font-size: 1.5vw;
+                    font-size: 1.3em;
                 }
             }
         }

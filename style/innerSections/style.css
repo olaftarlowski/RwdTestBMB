@@ -58,20 +58,20 @@
 
 .firstSection .firstSectionContent1 .firstSectionContent1Elements {
   margin: auto;
-  font-size: 8vw;
+  font-size: 2em;
 }
 
 @media (min-width: 768px) {
   .firstSection .firstSectionContent1 .firstSectionContent1Elements {
     margin: auto;
     max-width: 50%;
-    font-size: 2.5vw;
+    font-size: 1.8em;
   }
 }
 
 @media (min-width: 768px) and (min-width: 1200px) {
   .firstSection .firstSectionContent1 .firstSectionContent1Elements {
-    font-size: 2.4vw;
+    font-size: 2em;
   }
 }
 
@@ -96,7 +96,7 @@
 }
 
 .firstSection .firstSectionContent2 .firstSectionContent2Elements {
-  font-size: 5vw;
+  font-size: 1em;
   line-height: 2;
   font-style: italic;
   color: #a0a0a0;
@@ -107,14 +107,15 @@
     line-height: none;
     margin: auto auto auto 0;
     max-width: 70%;
-    font-size: 1.4vw;
+    font-size: 0.95em;
   }
 }
 
 @media (min-width: 768px) and (min-width: 1200px) {
   .firstSection .firstSectionContent2 .firstSectionContent2Elements {
+    line-height: 1.5;
     max-width: 60%;
-    font-size: 1.5vw;
+    font-size: 1.3em;
   }
 }
 /*# sourceMappingURL=style.css.map */
