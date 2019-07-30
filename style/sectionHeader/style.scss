@@ -78,8 +78,8 @@ $highResolutionDesktop: 1500px;
 
             @include tablet() {
                 margin: 0 5vw;
-                max-width: 70vw;
-                height: 60vh;
+                max-width: 60vw;
+                height: 45vh;
 
                 @include desktop() {
                     margin: 0 10vw;
@@ -89,15 +89,15 @@ $highResolutionDesktop: 1500px;
             }
 
             h1 {
-                font-size: 9vw;
-                line-height: 1.4;
+                font-size: 2.4em;
+                line-height: 1.2;
 
                 @include tablet() {
-                    font-size: 6vw;
+                    font-size: 3em;
                     line-height: 1.2;
 
                     @include desktop() {
-                        font-size: 3.5vw;
+                        font-size: 4em;
                         line-height: 1.2;
 
                     }
@@ -108,20 +108,20 @@ $highResolutionDesktop: 1500px;
             }
 
             p {
-                font-size: 5vw;
+                font-size: 1.1em;
                 line-height: 1.4;
                 font-family: "maison_italic";
                 color: rgb(255, 255, 255);
                 font-style: italic;
-                padding: 40px 0 30px 0;
+                padding: 30px 0 20px 0;
 
                 @include tablet() {
-                    font-size: 3vw;
+                    font-size: 2em;
                     line-height: 1.4;
                     padding: 40px 0 30px 0;
 
                     @include desktop() {
-                        font-size: 1.5vw;
+                        font-size: 2em;
                         line-height: 1.4;
                         padding: 30px 0 20px 0;
                     }
@@ -141,16 +141,16 @@ $highResolutionDesktop: 1500px;
                 padding: 12px 22px;
                 cursor: pointer;
                 z-index: 10;
-                font-size: 4vw;
+                font-size: 1em;
                 margin: 2vh 0;
 
                 @include tablet() {
-                    font-size: 2vw;
+                    font-size: 1.5em;
                     line-height: 2;
                     padding: 12px 22px;
 
                     @include desktop() {
-                        font-size: 1vw;
+                        font-size: 1.3em;
                         line-height: 1.5;     
                         padding: 20px 36px;
                     }
