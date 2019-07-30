@@ -2,21 +2,23 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10vh 12vw;
 }
 
 .firstSection .firstSectionContent {
-  height: 50vh;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 3vh 0;
 }
 
 .firstSection .firstSectionContent1 {
@@ -30,24 +32,22 @@
 
 .firstSection .firstSectionContent1 .firstSectionContent1Elements {
   margin: auto;
-  max-height: 50%;
-  max-width: 50%;
-  font-size: 3vw;
+  font-size: 8vw;
 }
 
 .firstSection .firstSectionContent2 {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .firstSection .firstSectionContent2 .firstSectionContent2Elements {
-  margin: auto auto auto 0;
-  max-height: 50%;
-  max-width: 70%;
-  font-size: 2vw;
+  font-size: 5vw;
+  line-height: 2;
+  font-style: italic;
+  color: #a0a0a0;
 }
 /*# sourceMappingURL=style.css.map */
