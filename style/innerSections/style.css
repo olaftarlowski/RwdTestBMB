@@ -9,6 +9,16 @@
   padding: 10vh 12vw;
 }
 
+@media (min-width: 768px) {
+  .firstSection {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0;
+  }
+}
+
 .firstSection .firstSectionContent {
   height: 20vh;
   display: -webkit-box;
@@ -19,6 +29,16 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 3vh 0;
+}
+
+@media (min-width: 768px) {
+  .firstSection .firstSectionContent {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 40vh;
+  }
 }
 
 .firstSection .firstSectionContent1 {
@@ -35,6 +55,14 @@
   font-size: 8vw;
 }
 
+@media (min-width: 768px) {
+  .firstSection .firstSectionContent1 .firstSectionContent1Elements {
+    margin: auto;
+    max-width: 50%;
+    font-size: 2.5vw;
+  }
+}
+
 .firstSection .firstSectionContent2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -44,10 +72,30 @@
           align-items: center;
 }
 
+@media (min-width: 768px) {
+  .firstSection .firstSectionContent2 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .firstSection .firstSectionContent2 .firstSectionContent2Elements {
   font-size: 5vw;
   line-height: 2;
   font-style: italic;
   color: #a0a0a0;
+}
+
+@media (min-width: 768px) {
+  .firstSection .firstSectionContent2 .firstSectionContent2Elements {
+    line-height: none;
+    margin: auto auto auto 0;
+    max-width: 70%;
+    font-size: 1.4vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
