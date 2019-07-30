@@ -38,7 +38,7 @@ $highResolutionDesktop: 1500px;
         height: calc(100vh - 67px);
         margin-bottom: -4px;
 
-        @include highResolutionDesktop() {
+        @include highResolutionDesktop {
             width: 100vw;
         }
     }
@@ -66,22 +66,22 @@ $highResolutionDesktop: 1500px;
         align-items: flex-start;
         text-align: left;
 
-        @include tablet() {}
+        @include tablet {}
 
         .bannerElements {
             display: flex;
-            justify-content: space-around   ;
+            justify-content: space-around;
             flex-direction: column;
             align-items: flex-start;
             text-align: left;
-            margin: 0 2vw;
+            margin: 0 1vw;
 
-            @include tablet() {
+            @include tablet {
                 margin: 0 5vw;
                 max-width: 60vw;
                 height: 45vh;
 
-                @include desktop() {
+                @include desktop {
                     margin: 0 10vw;
                     max-width: 40vw;
                     height: 45vh;
@@ -89,15 +89,15 @@ $highResolutionDesktop: 1500px;
             }
 
             h1 {
-                font-size: 2.4em;
+                font-size: 2.3em;
                 line-height: 1.2;
 
-                @include tablet() {
+                @include tablet {
                     font-size: 3em;
                     line-height: 1.2;
 
-                    @include desktop() {
-                        font-size: 4em;
+                    @include desktop {
+                        font-size: 3.5em;
                         line-height: 1.2;
 
                     }
@@ -108,20 +108,20 @@ $highResolutionDesktop: 1500px;
             }
 
             p {
-                font-size: 1.1em;
+                font-size: 1.2em;
                 line-height: 1.4;
                 font-family: "maison_italic";
                 color: rgb(255, 255, 255);
                 font-style: italic;
                 padding: 30px 0 20px 0;
 
-                @include tablet() {
+                @include tablet {
                     font-size: 2em;
                     line-height: 1.4;
                     padding: 40px 0 30px 0;
 
-                    @include desktop() {
-                        font-size: 2em;
+                    @include desktop {
+                        font-size: 1.6em;
                         line-height: 1.4;
                         padding: 30px 0 20px 0;
                     }
@@ -144,14 +144,14 @@ $highResolutionDesktop: 1500px;
                 font-size: 1em;
                 margin: 2vh 0;
 
-                @include tablet() {
+                @include tablet {
                     font-size: 1.5em;
                     line-height: 2;
                     padding: 12px 22px;
 
-                    @include desktop() {
-                        font-size: 1.3em;
-                        line-height: 1.5;     
+                    @include desktop {
+                        font-size: 1.1em;
+                        line-height: 1.5;
                         padding: 20px 36px;
                     }
                 }
