@@ -41,6 +41,12 @@
   }
 }
 
+@media (min-width: 768px) and (min-width: 1200px) {
+  .firstSection .firstSectionContent {
+    height: 50vh;
+  }
+}
+
 .firstSection .firstSectionContent1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -60,6 +66,12 @@
     margin: auto;
     max-width: 50%;
     font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1200px) {
+  .firstSection .firstSectionContent1 .firstSectionContent1Elements {
+    font-size: 2.4vw;
   }
 }
 
@@ -96,6 +108,13 @@
     margin: auto auto auto 0;
     max-width: 70%;
     font-size: 1.4vw;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1200px) {
+  .firstSection .firstSectionContent2 .firstSectionContent2Elements {
+    max-width: 60%;
+    font-size: 1.5vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
