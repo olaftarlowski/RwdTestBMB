@@ -58,8 +58,7 @@
   height: 100vw;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 2px solid green;
-  background-color: blue;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -74,8 +73,7 @@
   height: 100vw;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 2px solid red;
-  background-color: yellow;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -85,5 +83,50 @@
     -ms-flex-preferred-size: 1;
         flex-basis: 1;
   }
+}
+
+.secondSection .secondSectionElementsContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 8%;
+  text-transform: uppercase;
+  color: white;
+}
+
+.secondSection .secondSectionElementsContent h3 {
+  font-size: 1.2em;
+  margin: 4px;
+}
+
+.secondSection .secondSectionElementsContent p {
+  font-size: 1em;
+  font-style: italic;
+  margin: 4px;
+}
+
+.secondSection #secondSectionDiv1 {
+  background: url("../../assets/section2_img1.jpg");
+  background-size: cover;
+}
+
+.secondSection #secondSectionDiv2 {
+  background: url("../../assets/section2_img2.jpg");
+  background-size: cover;
+}
+
+.secondSection #secondSectionDiv3 {
+  background: url("../../assets/section2_img3.jpg");
+  background-size: cover;
+}
+
+.secondSection #secondSectionDiv4 {
+  background: url("../../assets/section2_img4.jpg");
+  background-size: cover;
+}
+
+.secondSection #secondSectionDiv5 {
+  background: url("../../assets/section2_img5.jpg");
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */

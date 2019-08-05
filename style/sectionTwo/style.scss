@@ -19,6 +19,8 @@ $desktop: 1200px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    
+    
 
     @include tablet {
         
@@ -53,8 +55,8 @@ $desktop: 1200px;
         width: 100vw;
         height: 100vw;
         box-sizing: border-box;
-        border: 2px solid green;
-        background-color: blue;
+        position: relative;
+        
         
         @include tablet {
             width: 50vw;
@@ -63,11 +65,12 @@ $desktop: 1200px;
     }
 
     .secondSectionElements {
+        
         width: 100vw;
         height: 100vw;
         box-sizing: border-box;
-        border: 2px solid red;
-        background-color: yellow;
+        position: relative;
+        
 
         @include tablet {
             width: 25vw;
@@ -75,6 +78,53 @@ $desktop: 1200px;
             flex-basis: 1;
 
         }
+    }
+
+    .secondSectionElementsContent{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 8%;
+        text-transform: uppercase;
+        color: white;
+        
+        
+        h3 {
+            font-size: 1.2em;
+            margin: 4px;
+        }
+    
+        p {
+            font-size: 1em;
+            font-style: italic;
+            margin: 4px;
+        }
+    }
+    
+    #secondSectionDiv1 {
+        background: url("../../assets/section2_img1.jpg");
+        background-size: cover;
+        
+    }
+    
+    #secondSectionDiv2 {
+        background: url("../../assets/section2_img2.jpg");
+        background-size: cover;
+    }
+    
+    #secondSectionDiv3 {
+        background: url("../../assets/section2_img3.jpg");
+        background-size: cover;
+    }
+    
+    #secondSectionDiv4 {
+        background: url("../../assets/section2_img4.jpg");
+        background-size: cover;
+    }
+    
+    #secondSectionDiv5 {
+        background: url("../../assets/section2_img5.jpg");
+        background-size: cover;
     }
 }
 
