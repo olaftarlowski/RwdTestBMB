@@ -18,6 +18,49 @@ $desktop: 1200px;
 .secondSection {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+
+    @include tablet {
+        
+        flex-direction: row;
+
+        .secondSectionLeft {
+            width: 50vw;
+            height: 50vw;
+        }
+
+        .secondSectionRight{
+            flex-direction: column;
+            width: 50vw;
+            height: 50vw;
+        }
+
+        .secondSectionRightRow1 {
+            display: flex;
+            flex-direction: row;
+            width: 50vw;
+            height: 25vw;
+        }
+        .secondSectionRightRow2 {
+            display: flex;
+            flex-direction: row;
+            width: 50vw;
+            height: 25vw;
+        }
+    }
+
+    .secondSectionElementsLeft {
+        width: 100vw;
+        height: 100vw;
+        box-sizing: border-box;
+        border: 2px solid green;
+        background-color: blue;
+        
+        @include tablet {
+            width: 50vw;
+            height: 50vw;
+        }
+    }
 
     .secondSectionElements {
         width: 100vw;
@@ -25,40 +68,13 @@ $desktop: 1200px;
         box-sizing: border-box;
         border: 2px solid red;
         background-color: yellow;
+
+        @include tablet {
+            width: 25vw;
+            height: 25vw;
+            flex-basis: 1;
+
+        }
     }
 }
 
-
-
-///////////////////////////////////////////////
-
-// .secondSection {
-//     display: flex;
-//     flex-direction: column;
-
-//     .secondSectionElements {
-//         box-sizing: border-box;
-//         background-color: aqua;
-//         border: 1px solid black;
-
-//         text-align: left;
-//         width: 100vw;
-//         height: 100vw;
-//         position: relative;
-
-//         .secondSectionElementsContent {
-//             position: absolute;
-//             bottom: 0;
-//             left: 0;
-//             font-size: 1em;
-//             padding-top: 20%;
-            
-
-//             // h3 {
-//             //     // white-space: nowrap;
-//             // }
-
-
-//         }
-//     }
-// }
