@@ -9,21 +9,11 @@
 }
 
 .secondSection .secondSectionElements {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: aqua;
-  border: 1px solid black;
-  text-align: left;
   width: 100vw;
   height: 100vw;
-  position: relative;
-}
-
-.secondSection .secondSectionElements .secondSectionElementsContent {
-  position: absolute;
-  bottom: 8%;
-  left: 8%;
-  font-size: 1.2em;
-  padding-top: 20%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid red;
+  background-color: yellow;
 }
 /*# sourceMappingURL=style.css.map */
