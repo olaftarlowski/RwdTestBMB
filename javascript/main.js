@@ -49,13 +49,12 @@ turnOnSectionButton.addEventListener('click', toggleSectionElements);
 
 // slick for section Five
 
-// slick
-
 $(document).ready(function () {
     $('.fifthSectionContainer').slick({
         mobileFirst: true,
         dots: true,
-        infinite: false,
+        infinite: true,
+        arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [{
