@@ -20,20 +20,20 @@ $desktop: 1200px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+
 
     .thirdSectionUpperContent {
         margin: 6vw 0;
 
         @include tablet {
-            
+
             margin: 3vw 0;
         }
 
         button {
             background: transparent;
             line-height: 2;
-            color: rgb(160,160,160);
+            color: rgb(160, 160, 160);
             font-weight: bold;
             border-radius: 45px;
             text-transform: uppercase;
@@ -44,12 +44,12 @@ $desktop: 1200px;
             z-index: 10;
             font-size: 1em;
             margin: 2vh 0;
-    
+
             @include tablet {
                 font-size: 1.5em;
                 line-height: 2;
                 padding: 12px 24px;
-    
+
                 @include desktop {
                     font-size: 1.1em;
                     line-height: 1.5;
@@ -59,24 +59,24 @@ $desktop: 1200px;
         }
     }
 
-    
+
 
     .thirdSectionLowerContent {
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
         position: relative;
         align-items: center;
         margin: 6vw 0;
 
         @include tablet {
-            
+
             margin: 3vw 0;
             align-self: flex-start;
             margin-left: 15%;
         }
 
         p {
-            color: rgb(160,160,160);
+            color: rgb(160, 160, 160);
             text-transform: uppercase;
             font-size: 1em;
 
@@ -84,7 +84,7 @@ $desktop: 1200px;
                 font-size: 1.5em;
                 line-height: 2;
                 padding: 12px 24px;
-    
+
                 @include desktop {
                     font-size: 1.1em;
                     line-height: 1.5;
@@ -96,10 +96,10 @@ $desktop: 1200px;
         span {
             position: absolute;
             left: -46px;
-            border: 1px solid rgb(160,160,160);
+            border: 1px solid rgb(160, 160, 160);
             width: 30px;
         }
 
-        
+
     }
 }
