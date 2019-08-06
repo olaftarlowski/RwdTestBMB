@@ -19,11 +19,11 @@ $desktop: 1200px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    
-    
+
+
 
     @include tablet {
-        
+
         flex-direction: row;
 
         .secondSectionLeft {
@@ -31,7 +31,7 @@ $desktop: 1200px;
             height: 50vw;
         }
 
-        .secondSectionRight{
+        .secondSectionRight {
             flex-direction: column;
             width: 50vw;
             height: 50vw;
@@ -43,13 +43,14 @@ $desktop: 1200px;
             width: 50vw;
             height: 25vw;
         }
+
         .secondSectionRightRow2 {
             display: flex;
             flex-direction: row;
             width: 50vw;
             height: 25vw;
 
-            
+
 
             .showElement {
                 position: relative;
@@ -62,8 +63,8 @@ $desktop: 1200px;
         height: 100vw;
         box-sizing: border-box;
         position: relative;
-        
-        
+
+
         @include tablet {
             width: 50vw;
             height: 50vw;
@@ -71,13 +72,13 @@ $desktop: 1200px;
     }
 
     .secondSectionElements {
-        
+
         width: 100vw;
         height: 100vw;
         box-sizing: border-box;
         position: relative;
         transition: 0.3s;
-        
+
 
         @include tablet {
             width: 25vw;
@@ -87,48 +88,48 @@ $desktop: 1200px;
         }
     }
 
-    .secondSectionElementsContent{
+    .secondSectionElementsContent {
         position: absolute;
         bottom: 0;
         left: 0;
         margin: 8%;
         text-transform: uppercase;
         color: white;
-        
-        
+
+
         h3 {
             font-size: 1.2em;
             margin: 4px;
         }
-    
+
         p {
             font-size: 1em;
             font-style: italic;
             margin: 4px;
         }
     }
-    
+
     #secondSectionDiv1 {
         background: url("../../assets/section2_img1.jpg");
         background-size: cover;
-        
+
     }
-    
+
     #secondSectionDiv2 {
         background: url("../../assets/section2_img2.jpg");
         background-size: cover;
     }
-    
+
     #secondSectionDiv3 {
         background: url("../../assets/section2_img3.jpg");
         background-size: cover;
     }
-    
+
     #secondSectionDiv4 {
         background: url("../../assets/section2_img4.jpg");
         background-size: cover;
     }
-    
+
     #secondSectionDiv5 {
         background: url("../../assets/section2_img5.jpg");
         background-size: cover;
@@ -141,19 +142,15 @@ $desktop: 1200px;
 }
 
 .turnElement {
-    // display: none;
     width: 0 !important;
     height: 0 !important;
     visibility: hidden;
-    
+
 
     @include tablet {
         width: 25vw !important;
-            height: 25vw !important;
-            flex-basis: 1;
-            visibility: visible;
+        height: 25vw !important;
+        flex-basis: 1;
+        visibility: visible;
+    }
 }
-}
-
-
-
