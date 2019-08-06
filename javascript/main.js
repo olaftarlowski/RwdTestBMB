@@ -31,6 +31,18 @@ function toggleNav(parent, children) {
     });
 };
 
-
-
 toggleNav('.mainNavbar', '.toggleButton');
+
+/// show second section items
+
+var turnOnSectionButton = document.getElementById("turnSectionItemsButton");
+
+function toggleSectionElements() {
+    if (window.innerWidth >= 768) {
+        return
+    } else {
+        $('.showElement').toggleClass('turnElement');
+    }
+};
+
+turnOnSectionButton.addEventListener('click', toggleSectionElements);

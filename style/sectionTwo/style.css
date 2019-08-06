@@ -51,6 +51,9 @@
     width: 50vw;
     height: 25vw;
   }
+  .secondSection .secondSectionRightRow2 .showElement {
+    position: relative;
+  }
 }
 
 .secondSection .secondSectionElementsLeft {
@@ -74,6 +77,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 @media (min-width: 768px) {
@@ -128,5 +133,25 @@
 .secondSection #secondSectionDiv5 {
   background: url("../../assets/section2_img5.jpg");
   background-size: cover;
+}
+
+.showElement {
+  position: relative;
+}
+
+.turnElement {
+  width: 0 !important;
+  height: 0 !important;
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  .turnElement {
+    width: 25vw !important;
+    height: 25vw !important;
+    -ms-flex-preferred-size: 1;
+        flex-basis: 1;
+    visibility: visible;
+  }
 }
 /*# sourceMappingURL=style.css.map */

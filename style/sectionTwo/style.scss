@@ -48,6 +48,12 @@ $desktop: 1200px;
             flex-direction: row;
             width: 50vw;
             height: 25vw;
+
+            
+
+            .showElement {
+                position: relative;
+            }
         }
     }
 
@@ -70,6 +76,7 @@ $desktop: 1200px;
         height: 100vw;
         box-sizing: border-box;
         position: relative;
+        transition: 0.3s;
         
 
         @include tablet {
@@ -127,4 +134,26 @@ $desktop: 1200px;
         background-size: cover;
     }
 }
+
+.showElement {
+    position: relative;
+
+}
+
+.turnElement {
+    // display: none;
+    width: 0 !important;
+    height: 0 !important;
+    visibility: hidden;
+    
+
+    @include tablet {
+        width: 25vw !important;
+            height: 25vw !important;
+            flex-basis: 1;
+            visibility: visible;
+}
+}
+
+
 
