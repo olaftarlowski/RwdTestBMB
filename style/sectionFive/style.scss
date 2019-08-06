@@ -16,9 +16,9 @@ $desktop: 1200px;
 }
 
 .fifthSection {
-    background-color: aquamarine;
+    background-color: rgba(243, 158, 118, 0.692);
     width: 100vw;
-    height: 70vh;
+    // height: 70vh;
     
     
     .fifthSectionIntro {
@@ -74,12 +74,18 @@ $desktop: 1200px;
         flex-direction: column;
 
         .fifthSectionContainerFor1 {
-            width: 60px;
-            height: 60px;
-            background-color: yellow;
+            width: 70%;
+            height: 35%;
+            background: url(assets/sectionFiveCarouselLogos/samsung_logo_PNG9.png);
+            background-size: cover;
             box-sizing: border-box;
             margin: auto;
             border: 1px solid black;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }
