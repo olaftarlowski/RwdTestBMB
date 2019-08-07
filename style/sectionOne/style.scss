@@ -19,7 +19,9 @@ $desktop: 1200px;
 .firstSection {
     display: flex;
     flex-direction: column;
+    height: 80vh;
     padding: 10vh 12vw;
+    align-items: center;
 
     @include tablet {
         flex-direction: row;
@@ -58,10 +60,10 @@ $desktop: 1200px;
             @include tablet {
                 margin: auto;
                 max-width: 50%;
-                font-size: 1.8em;
+                font-size: 2em;
 
                 @include desktop {
-                    font-size: 2em;
+                    font-size: 2.3em;
                 }
             }
         }
@@ -87,12 +89,12 @@ $desktop: 1200px;
                 line-height: none;
                 margin: auto auto auto 0;
                 max-width: 70%;
-                font-size: 0.95em;
+                font-size: 1.1em;
 
                 @include desktop {
                     line-height: 1.5;
                     max-width: 60%;
-                    font-size: 1.3em;
+                    font-size: 1.5em;
                 }
             }
         }

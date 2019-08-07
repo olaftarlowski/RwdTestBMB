@@ -6,7 +6,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 80vh;
   padding: 10vh 12vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -65,13 +69,13 @@
   .firstSection .firstSectionContent1 .firstSectionContent1Elements {
     margin: auto;
     max-width: 50%;
-    font-size: 1.8em;
+    font-size: 2em;
   }
 }
 
 @media (min-width: 768px) and (min-width: 1200px) {
   .firstSection .firstSectionContent1 .firstSectionContent1Elements {
-    font-size: 2em;
+    font-size: 2.3em;
   }
 }
 
@@ -107,7 +111,7 @@
     line-height: none;
     margin: auto auto auto 0;
     max-width: 70%;
-    font-size: 0.95em;
+    font-size: 1.1em;
   }
 }
 
@@ -115,7 +119,7 @@
   .firstSection .firstSectionContent2 .firstSectionContent2Elements {
     line-height: 1.5;
     max-width: 60%;
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 }
 /*# sourceMappingURL=style.css.map */
