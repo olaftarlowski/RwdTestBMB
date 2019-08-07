@@ -21,6 +21,32 @@
     width: 50vw;
     height: 50vw;
   }
+}
+
+@media (min-width: 768px) and (min-width: 1200px) {
+  .secondSection .secondSectionLeft {
+    overflow: hidden;
+    background-color: lime;
+  }
+  .secondSection .secondSectionLeft .secondSectionElementsLeft {
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+    -webkit-transition: 1.1s;
+    transition: 1.1s;
+  }
+  .secondSection .secondSectionLeft .secondSectionElementsLeft:hover {
+    opacity: 0.5;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+    -webkit-transition: 1.1s;
+    transition: 1.1s;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
   .secondSection .secondSectionRight {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
