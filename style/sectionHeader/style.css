@@ -7,20 +7,10 @@
   position: relative;
   text-align: center;
   color: white;
-  z-index: -1;
-}
-
-.mainBanner img {
-  max-width: initial;
+  background: url(../../assets/rwd-background-jpg.jpg);
+  background-size: cover;
   height: calc(100vh - 67px);
-  margin-bottom: -4px;
-  z-index: -10;
-}
-
-@media (min-width: 1500px) {
-  .mainBanner img {
-    width: 100vw;
-  }
+  max-width: initial;
 }
 
 .mainBanner .bannerPattern {

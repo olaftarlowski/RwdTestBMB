@@ -29,20 +29,25 @@ $highResolutionDesktop: 1500px;
     box-sizing: border-box;
     position: relative;
     text-align: center;
-    color: white;
-    z-index: -1;
+    color: rgb(255, 255, 255);
 
-    img {
-        max-width: initial;
-        height: calc(100vh - 67px);
-        margin-bottom: -4px;
-        z-index: -10;
+    // here
+            background: url(../../assets/rwd-background-jpg.jpg);
+            background-size: cover;
+            height: calc(100vh - 67px);
+            max-width: initial;
 
-        @include highResolutionDesktop {
-            width: 100vw;
-        }
-    }
+    // img {
+    //     max-width: initial;
+    //     height: calc(100vh - 67px);
+    //     margin-bottom: -4px;
+    //     z-index: -10;
 
+    //     @include highResolutionDesktop {
+    //         width: 100vw;
+    //     }
+    // }
+    // to here
     .bannerPattern {
         position: fixed;
         width: 100%;

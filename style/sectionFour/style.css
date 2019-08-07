@@ -1,6 +1,49 @@
 .fourthSection {
-  width: 100vw;
-  height: 5vh;
   background-color: azure;
+}
+
+.carouselItem {
+  display: -ms-grid;
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.carouselItem .carouselItem img {
+  max-width: 100%;
+  margin: auto;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.carouselItem .carouselItemTitle {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.carouselItem .carouselItemDescription {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@media (min-width: 768px) {
+  .carouselItem {
+    -ms-grid-columns: 30% 70%;
+        grid-template-columns: 30% 70%;
+  }
+  .carouselItem .carouselItemDescription {
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+  }
 }
 /*# sourceMappingURL=style.css.map */
