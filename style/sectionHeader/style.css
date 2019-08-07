@@ -28,6 +28,15 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.05) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=");
   max-width: 100%;
+  -webkit-box-shadow: inset 60px -80px 80px -50px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 60px -80px 80px -50px rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) {
+  .mainBanner .bannerPattern {
+    -webkit-box-shadow: inset 120px -70px 200px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 120px -70px 200px 0px rgba(0, 0, 0, 0.7);
+  }
 }
 
 .mainBanner .bannerContainer {
@@ -163,11 +172,5 @@
     line-height: 1.5;
     padding: 20px 36px;
   }
-}
-
-.test {
-  background-color: blue;
-  width: 100px;
-  height: 100px;
 }
 /*# sourceMappingURL=style.css.map */
