@@ -60,18 +60,17 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    autoplay: true,
-                    autoplaySpeed: 3500,
-                    infinite: true,
-                    arrows: true,
-                    dots: false
-                }
-            },
-        ]
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3500,
+                infinite: true,
+                arrows: true,
+                dots: false
+            }
+        }, ]
     });
 });
 
@@ -106,6 +105,3 @@ $(document).ready(function () {
         ]
     });
 });
-
-
-
