@@ -2,18 +2,16 @@
   background-color: azure;
 }
 
-.carouselItem {
+.fourthSectionCarouselItem {
   display: -ms-grid;
   display: grid;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   -ms-grid-columns: 70% 30%;
       grid-template-columns: 70% 30%;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
 }
 
-.carouselItem .carouselItem img {
+.fourthSectionCarouselItem .fourthSectionCarouselItem img {
   max-width: 100%;
   margin: auto;
   -ms-grid-column: 1;
@@ -24,26 +22,35 @@
   grid-row-end: 2;
 }
 
-.carouselItem .carouselItemTitle {
+.fourthSectionCarouselItem .carouselItemTitle {
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 3;
 }
 
-.carouselItem .carouselItemDescription {
+.fourthSectionCarouselItem .carouselItemDescription {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
 }
 
 @media (min-width: 768px) {
-  .carouselItem {
-    -ms-grid-columns: 30% 70%;
-        grid-template-columns: 30% 70%;
+  .fourthSectionCarouselItem {
+    -ms-grid-columns: 40% 60%;
+        grid-template-columns: 40% 60%;
   }
-  .carouselItem .carouselItemDescription {
+  .fourthSectionCarouselItem .carouselItemTitle {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .fourthSectionCarouselItem .carouselItemDescription {
     -ms-grid-column: 2;
         grid-column-start: 2;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 3;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

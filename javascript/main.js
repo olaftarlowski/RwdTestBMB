@@ -47,7 +47,35 @@ function toggleSectionElements() {
 
 turnOnSectionButton.addEventListener('click', toggleSectionElements);
 
-// slick for section Five
+// slick carousel for section four
+
+$(document).ready(function () {
+    $('.fourthSectionContainer').slick({
+        mobileFirst: true,
+        dots: true,
+        infinite: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3500,
+                    infinite: true,
+                    arrows: true,
+                    dots: false
+                }
+            },
+        ]
+    });
+});
+
+// slick carousel for section five
 
 $(document).ready(function () {
     $('.fifthSectionContainer').slick({
@@ -78,4 +106,6 @@ $(document).ready(function () {
         ]
     });
 });
+
+
 
