@@ -83,4 +83,37 @@ $desktop: 1200px;
             }
         }
     }
+
+    .slick-dots {
+        // height: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 5% 0 8% 0;
+        
+        li {
+            text-decoration: none;
+            list-style-type: none;
+            margin: 4%;
+            
+        }
+    
+        li.slick-active button {
+            background-color: rgb(148, 148, 148);
+            transition: 0.4s;
+        }
+    
+        button {
+            display: block;
+            width: 1.5rem;
+            height: 1.5rem;
+            padding: 0;
+            
+            border: none;
+            border-radius: 100%;
+            border: 3px solid rgb(148, 148, 148);
+            text-indent: -9999px;
+            background-color: rgb(24, 24, 24);
+        }
+    }
 }

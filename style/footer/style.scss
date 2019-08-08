@@ -60,6 +60,7 @@ $desktop: 1200px;
 
         li {
             list-style-type: none;
+            z-index: 10;
 
             @include tablet {
                 margin: 0 3vw 0 0;
@@ -70,7 +71,6 @@ $desktop: 1200px;
                 color: rgb(0, 0, 0);
                 font-size: 0.9em;
                 font-weight: bold;
-                z-index: 10;
                 position: relative;
 
                 span {
