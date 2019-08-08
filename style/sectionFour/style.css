@@ -112,7 +112,36 @@
 
 @media (min-width: 768px) and (min-width: 1200px) {
   .fourthSectionCarouselItem {
-    padding: 5% 0 0 0;
+    padding: 10% 0 0 0;
   }
+}
+
+.fourthSectionContainer {
+  position: relative;
+}
+
+.fourthSectionContainer .slick-arrow {
+  top: 50%;
+  height: 44px;
+  width: 34px;
+  margin-top: -13px;
+  position: absolute;
+  font-size: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  background: url(../../assets/next.png);
+  background-size: cover;
+  z-index: 10;
+}
+
+.fourthSectionContainer .slick-next {
+  right: 2%;
+}
+
+.fourthSectionContainer .slick-prev {
+  left: 2%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 /*# sourceMappingURL=style.css.map */

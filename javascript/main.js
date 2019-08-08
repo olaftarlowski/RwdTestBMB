@@ -295,3 +295,4 @@ function init() {
         title: 'BMB location'
     });
 }
+

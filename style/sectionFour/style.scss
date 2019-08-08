@@ -17,7 +17,7 @@ $desktop: 1200px;
 
 .fourthSection {
     padding: 10% 5%;
-    
+
     @include desktop {
         padding: 5% 2.5%;
     }
@@ -27,26 +27,26 @@ $desktop: 1200px;
         display: flex;
         justify-content: center;
         flex-direction: row;
-        
-    
+
+
         li {
             text-decoration: none;
             list-style-type: none;
             margin: 4%;
-            
+
         }
-    
+
         li.slick-active button {
             background-color: rgb(148, 148, 148);
             transition: 0.4s;
         }
-    
+
         button {
             display: block;
             width: 1.5rem;
             height: 1.5rem;
             padding: 0;
-            
+
             border: none;
             border-radius: 100%;
             border: 3px solid rgb(148, 148, 148);
@@ -112,7 +112,35 @@ $desktop: 1200px;
         }
 
         @include desktop {
-            padding: 5% 0 0 0;
+            padding: 10% 0 0 0;
         }
+    }
+}
+
+.fourthSectionContainer {
+    position: relative;
+
+    .slick-arrow {
+        top: 50%;
+        height: 44px;
+        width: 34px;
+        margin-top: -13px;
+        position: absolute;
+        font-size: 0;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        background: url(../../assets/next.png);
+        background-size: cover;
+        z-index: 10;
+    }
+
+    .slick-next {
+        right: 2%;
+    }
+
+    .slick-prev {
+        left: 2%;
+        transform: rotate(180deg);
     }
 }
