@@ -22,6 +22,7 @@ $desktop: 1200px;
     overflow-x: scroll;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    background-color: rgb(24, 24, 24);
 
     @include tablet {
         max-width: 100%;

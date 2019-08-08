@@ -5,6 +5,7 @@
   overflow-x: scroll;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+  background-color: #181818;
 }
 
 @media (min-width: 768px) {
