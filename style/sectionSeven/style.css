@@ -1,0 +1,12 @@
+.seventhSection {
+  width: 100%;
+  height: 100%;
+}
+
+.seventhSection #map {
+  width: 100%;
+  height: 50vh;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+/*# sourceMappingURL=style.css.map */
