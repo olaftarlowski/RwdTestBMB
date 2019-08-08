@@ -1,5 +1,49 @@
 .fourthSection {
-  background-color: azure;
+  padding: 10% 5%;
+}
+
+@media (min-width: 1200px) {
+  .fourthSection {
+    padding: 5% 2.5%;
+  }
+}
+
+.fourthSection .slick-dots {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fourthSection .slick-dots li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 4%;
+}
+
+.fourthSection .slick-dots li.slick-active button {
+  background-color: #949494;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.fourthSection .slick-dots button {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  border: 3px solid #949494;
+  text-indent: -9999px;
+  background-color: white;
 }
 
 .fourthSectionCarouselItem {
