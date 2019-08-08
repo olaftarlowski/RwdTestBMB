@@ -61,7 +61,9 @@ $desktop: 1200px;
     width: 70%;
     margin: 0 auto;
     grid-template-columns: 70% 30%;
+    padding: 20% 0 0 0;
     // grid-template-rows: auto;
+
 
     .fourthSectionCarouselItem img {
         max-width: 100%;
@@ -75,6 +77,16 @@ $desktop: 1200px;
     .carouselItemTitle {
         grid-column-start: 2;
         grid-column-end: 3;
+        position: relative;
+
+        img {
+            position: absolute;
+            z-index: -5;
+            width: 200px;
+            height: 200px;
+            top: -110px;
+            left: -200px;
+        }
     }
 
     .carouselItemDescription {
@@ -85,6 +97,7 @@ $desktop: 1200px;
     @include tablet {
 
         grid-template-columns: 40% 60%;
+        padding: 15% 0 0 0;
 
         .carouselItemTitle {
             grid-row-start: 1;
@@ -96,6 +109,10 @@ $desktop: 1200px;
             grid-row-start: 1;
             grid-row-end: 3;
             margin: auto;
+        }
+
+        @include desktop {
+            padding: 5% 0 0 0;
         }
     }
 }

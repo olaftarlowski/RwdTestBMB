@@ -84,7 +84,6 @@ $desktop: 1200px;
     }
 
     .secondSectionElementsLeft {
-        width: 100vw;
         height: 100vw;
         box-sizing: border-box;
         position: relative;
@@ -93,13 +92,11 @@ $desktop: 1200px;
         box-shadow: inset 130px -180px 119px -40px rgba(0, 0, 0, 0.7);
 
         @include tablet {
-            width: 50vw;
             height: 50vw;
         }
     }
 
     .secondSectionElements {
-        width: 100vw;
         height: 100vw;
         box-sizing: border-box;
         position: relative;
