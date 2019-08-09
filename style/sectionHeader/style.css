@@ -83,7 +83,7 @@
 
 @media (min-width: 768px) and (min-width: 1200px) {
   .mainBanner .bannerContainer .bannerElements {
-    margin: 0 10vw;
+    margin: 0 10%;
     max-width: 40vw;
     height: 45vh;
   }

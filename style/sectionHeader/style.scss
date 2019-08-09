@@ -31,23 +31,11 @@ $highResolutionDesktop: 1500px;
     text-align: center;
     color: rgb(255, 255, 255);
 
-    // here
             background: url(../../assets/rwd-background-jpg.jpg);
             background-size: cover;
             height: calc(100vh - 67px);
             max-width: initial;
 
-    // img {
-    //     max-width: initial;
-    //     height: calc(100vh - 67px);
-    //     margin-bottom: -4px;
-    //     z-index: -10;
-
-    //     @include highResolutionDesktop {
-    //         width: 100vw;
-    //     }
-    // }
-    // to here
     .bannerPattern {
         position: fixed;
         width: 100%;
@@ -80,8 +68,6 @@ $highResolutionDesktop: 1500px;
         align-items: flex-start;
         text-align: left;
 
-        // @include tablet {}
-
         .bannerElements {
             display: flex;
             justify-content: space-around;
@@ -96,7 +82,7 @@ $highResolutionDesktop: 1500px;
                 height: 45vh;
 
                 @include desktop {
-                    margin: 0 10vw;
+                    margin: 0 10%;
                     max-width: 40vw;
                     height: 45vh;
                 }

@@ -19,8 +19,8 @@ $desktop: 1200px;
 .firstSection {
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    padding: 10vh 12vw;
+    height: 70vh;
+    padding: 10% 12%;
     align-items: center;
 
     @include tablet {
@@ -55,7 +55,7 @@ $desktop: 1200px;
 
         .firstSectionContent1Elements {
             margin: auto;
-            font-size: 2em;
+            font-size: 1.6em;
 
             @include tablet {
                 margin: auto;

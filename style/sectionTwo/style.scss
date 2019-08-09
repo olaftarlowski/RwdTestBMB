@@ -122,7 +122,11 @@ $desktop: 1200px;
 
         h3 {
             font-size: 1.2em;
-            margin: 4px;
+            padding: 4px;
+
+            @include tablet {
+                font-size: 1em;
+            }
         }
 
         p {

@@ -137,7 +137,13 @@
 
 .secondSection .secondSectionElementsContent h3 {
   font-size: 1.2em;
-  margin: 4px;
+  padding: 4px;
+}
+
+@media (min-width: 768px) {
+  .secondSection .secondSectionElementsContent h3 {
+    font-size: 1em;
+  }
 }
 
 .secondSection .secondSectionElementsContent p {
