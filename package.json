@@ -1,20 +1,28 @@
 {
-  "name": "rwd-website",
-  "description": "rwd webstie gulp setup",
+  "name": "rwdwebsite",
   "version": "1.0.0",
+  "description": "test website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test command"
   },
   "repository": {
     "type": "git",
-    "url": "rwd website"
+    "url": "git+https://github.com/olaftarlowski/RwdTestBMB.git"
   },
   "author": "olaf tarlowski",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olaftarlowski/RwdTestBMB/issues"
+  },
+  "homepage": "https://github.com/olaftarlowski/RwdTestBMB#readme",
   "devDependencies": {
+    "autoprefixer": "^9.6.1",
     "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2"
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
   }
 }
