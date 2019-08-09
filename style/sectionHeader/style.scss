@@ -30,11 +30,31 @@ $highResolutionDesktop: 1500px;
     position: relative;
     text-align: center;
     color: rgb(255, 255, 255);
+    background: url(../../assets/rwd-background-jpg.jpg);
+    background-size: cover;
+    height: calc(100vh - 67px);
+    max-width: initial;
 
-            background: url(../../assets/rwd-background-jpg.jpg);
-            background-size: cover;
-            height: calc(100vh - 67px);
-            max-width: initial;
+    .bottomIcon {
+
+        display: none;
+
+        @include desktop {
+            position: absolute;
+            left: 50%;
+            bottom: 30px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                max-width: 30px;
+                height: auto;
+                color: white;
+                margin: 10px;
+            }
+        }
+    }
 
     .bannerPattern {
         position: fixed;
