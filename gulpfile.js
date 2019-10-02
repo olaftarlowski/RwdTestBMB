@@ -44,9 +44,6 @@ function watch() {
         }
     });
     gulp.watch(paths.styles.src, style);
-    // We should tell gulp which files to watch to trigger the reload
-    // This can be html or whatever you're using to develop your website
-    // Note -- you can obviously add the path to the Paths object
     gulp.watch("style/*.scss", reload);
     gulp.watch("*.html").on('change', browserSync.reload);
 }
@@ -73,9 +70,6 @@ var build = gulp.parallel(style, watch);
  */
 //gulp.task('build', build);
  
-/*
- * Define default task that can be called by just running `gulp` from cli
- */
 gulp.task('default', build);
 
 
